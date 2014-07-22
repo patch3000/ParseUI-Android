@@ -233,7 +233,7 @@ public class ParseLoginFragment extends ParseLoginFragmentBase {
 
   private void setUpFacebookLogin() {
     facebookLoginButton.setVisibility(View.VISIBLE);
-
+    
     if (config.getFacebookLoginButtonText() != null) {
       facebookLoginButton.setText(config.getFacebookLoginButtonText());
     }
